@@ -98,7 +98,7 @@ class Data:
 
 class ATM(Frame):
     def __init__(self, parent):
-        Frame.__init__(self, parent)
+        Frame.__init__(self)
         self.root = parent
 
         # Frames
